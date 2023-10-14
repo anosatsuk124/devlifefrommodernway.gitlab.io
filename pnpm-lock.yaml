@@ -17,6 +17,9 @@ devDependencies:
   gitbook-plugin-hints:
     specifier: ^1.0.2
     version: 1.0.2
+  gitbook-plugin-search-pro-fixed:
+    specifier: ^1.0.1
+    version: 1.0.1
   graceful-fs:
     specifier: ^4.2.11
     version: 4.2.11
@@ -814,6 +817,13 @@ packages:
       gitbook-plugin-search: 2.2.1
       html-entities: 1.2.0
       lunr: 0.5.12
+    dev: true
+
+  /gitbook-plugin-search-pro-fixed@1.0.1:
+    resolution: {integrity: sha512-X6pBgfN54D3Ij+iF4cw44PZCdOvjnqboEoi0bsolEYPzcJOXFiiemxYt+rit95T8UbSaML38o8SCPzl9grM/zA==}
+    engines: {gitbook: '>=3.0.0'}
+    dependencies:
+      html-entities: 1.2.0
     dev: true
 
   /gitbook-plugin-search@2.2.1:

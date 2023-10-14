@@ -8,7 +8,8 @@
     "anchors",
     "collapsible-chapters",
     "hide-published-with",
-    "hints"
+    "hints",
+    "search-pro-fixed"
   ],
   "pdf.fontSize": 16,
   "pdf.fontFamily": "ZenMaruGothic",
