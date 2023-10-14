@@ -1,6 +1,30 @@
+stages:
+  - build
+  - upload
+  - release
+
+variables:
+  PACKAGE_REGISTRY_URL: "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/devlifefrommodernway/${CI_COMMIT_TAG}"
+
+upload:
+  stage: upload
+  image: curlimages/curl:latest
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    - 'curl --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file target/book-${CI_COMMIT_TAG}.pdf ${PACKAGE_REGISTRY_URL}/book-${CI_COMMIT_TAG}.pdf'
+
+release:
+  stage: release
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    - 'release-cli create --name "book-$CI_COMMIT_TAG" --tag-name $CI_COMMIT_TAG --assets-link "{\"name\":\"book-${CI_COMMIT_TAG}\", \"url\":\"${PACKAGE_REGISTRY_URL}/book-${CI_COMMIT_TAG}\"}"'
+
 image: node:lts-bullseye
 pages:
-  stage: deploy
+  stage: build
   cache:
     key:
       files:
@@ -9,15 +33,22 @@ pages:
       - node_modules/
   script:
     - apt-get update && apt-get install -y calibre --no-install-recommends
+
     - apt-get update && apt-get install -y fontconfig unzip sudo
     - unzip "./fonts/*.zip" -d /usr/share/fonts/
       && fc-cache -fv
+
     - sudo corepack enable
     - sudo -u node pnpm install
     - sudo -u node env LANG=ja_JP.UTF-8 pnpm run build
-    - cp -a _book/ public/webbook/
+
+    - mv target/book{.pdf,-${CI_COMMIT_TAG}.pdf}
+    - mv target/book{.epub,-${CI_COMMIT_TAG}.epub}
+    - mv target/book{.mobi,-${CI_COMMIT_TAG}.mobi}
+
+    - cp -a _book/. public/
   artifacts:
     paths:
       - public/
   rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_COMMIT_TAG
