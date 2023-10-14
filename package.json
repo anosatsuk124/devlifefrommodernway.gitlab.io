@@ -7,9 +7,9 @@
     "build": "run-s build:content",
     "build:content": "run-p build:content:*",
     "build:content:web": "honkit build",
-    "build:content:pdf": "honkit pdf . ./public/books/books.pdf",
-    "build:content:epub": "honkit epub . ./public/books/books.epub",
-    "build:content:mobi": "honkit mobi . ./public/books/books.mobi"
+    "build:content:pdf": "honkit pdf . ./public/books/book.pdf",
+    "build:content:epub": "honkit epub . ./public/books/book.epub",
+    "build:content:mobi": "honkit mobi . ./public/books/book.mobi"
   },
   "devDependencies": {
     "gitbook-plugin-anchors": "^0.7.1",
