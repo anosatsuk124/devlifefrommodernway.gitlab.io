@@ -2,11 +2,11 @@
 
 ## 本としてダウンロード
 
-<a href="../books/book.pdf" download="book.pdf">PDF</a>
+[PDF](https://gitlab.com/api/v4/projects/DevLifeFromModernWay%2Fdevlifefrommodernway.gitlab.io/releases/permalink/latest/downloads/book.pdf)
 
-<a href="../books/book.epub" download="book.epub">EPUB</a>
+[EPUB](https://gitlab.com/api/v4/projects/DevLifeFromModernWay%2Fdevlifefrommodernway.gitlab.io/releases/permalink/latest/downloads/book.epub)
 
-<a href="../books/book.mobi" download="book.mobi">MOBI</a>
+[MOBI](https://gitlab.com/api/v4/projects/DevLifeFromModernWay%2Fdevlifefrommodernway.gitlab.io/releases/permalink/latest/downloads/book.mobi)
 
 ## このリポジトリについて
 
