@@ -1,12 +1,20 @@
 # 「モダンからはじめる プログラミング生活！」
 
-## 本としてダウンロード
+{% hint style="info" %}
 
-[PDF](https://gitlab.com/api/v4/projects/DevLifeFromModernWay%2Fdevlifefrommodernway.gitlab.io/releases/permalink/latest/downloads/book.pdf)
+**本としてダウンロード**
 
-[EPUB](https://gitlab.com/api/v4/projects/DevLifeFromModernWay%2Fdevlifefrommodernway.gitlab.io/releases/permalink/latest/downloads/book.epub)
+[**Releases**](https://gitlab.com/DevLifeFromModernWay/devlifefrommodernway.gitlab.io/-/releases/permalink/latest) から以下のファイル形式でのダウンロードも可能です。
 
-[MOBI](https://gitlab.com/api/v4/projects/DevLifeFromModernWay%2Fdevlifefrommodernway.gitlab.io/releases/permalink/latest/downloads/book.mobi)
+- PDF
+
+- EPUB
+
+- MOBI
+
+**link: <https://gitlab.com/DevLifeFromModernWay/devlifefrommodernway.gitlab.io/-/releases/permalink/latest>**
+
+{% endhint %}
 
 ## このリポジトリについて
 
