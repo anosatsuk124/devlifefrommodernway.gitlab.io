@@ -4,17 +4,17 @@ pages:
   cache:
     key:
       files:
-        - bun.lockb
-      prefix: bun
+        - pnpm-lock.yaml
     paths:
       - node_modules/
   script:
     - apt-get update && apt-get install -y calibre --no-install-recommends
-    - apt-get update && apt-get install -y fontconfig unzip
+    - apt-get update && apt-get install -y fontconfig unzip sudo
     - unzip "./fonts/*.zip" -d /usr/share/fonts/
       && fc-cache -fv
-    - pnpm install
-    - env LANG=ja_JP.UTF-8 pnpm run build
+    - sudo corepack enable
+    - sudo -u node pnpm install
+    - sudo -u node env LANG=ja_JP.UTF-8 pnpm run build
     - cp -a _book/. public/
   artifacts:
     paths:
