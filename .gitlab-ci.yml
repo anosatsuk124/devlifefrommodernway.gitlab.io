@@ -43,8 +43,13 @@ pages:
     - unzip "./fonts/*.zip" -d /usr/share/fonts/
       && fc-cache -fv
 
+    - mkdir -p /etc/fonts/conf.d &&
+      cp -a ./fonts/fonts.conf /etc/fonts/conf.d/99-firgenerd.conf &&
+      fc-cache -fv
+
     - sudo corepack enable
     - sudo -u node pnpm install
+
     - sudo -u node env LANG=ja_JP.UTF-8 pnpm run build
 
     - cp -a _book/. public/

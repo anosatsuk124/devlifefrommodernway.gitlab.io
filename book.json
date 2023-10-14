@@ -11,7 +11,6 @@
     "search-pro-fixed"
   ],
   "pdf.fontSize": 16,
-  "pdf.fontFamily": "FirgeNerd",
   "pdf.paperSize": "a4",
   "pdf.embedFonts": true
 }
