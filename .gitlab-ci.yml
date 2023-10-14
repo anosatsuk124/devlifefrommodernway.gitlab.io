@@ -1,4 +1,4 @@
-image: oven/bun
+image: node:lts-bullseye
 pages:
   stage: deploy
   cache:
@@ -13,8 +13,8 @@ pages:
     - apt-get update && apt-get install -y fontconfig unzip
     - unzip "./fonts/*.zip" -d /usr/share/fonts/
       && fc-cache -fv
-    - bun install
-    - env LANG=ja_JP.UTF-8 bun run build
+    - pnpm install
+    - env LANG=ja_JP.UTF-8 pnpm run build
     - cp -a _book/. public/
   artifacts:
     paths:
