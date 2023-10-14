@@ -1,8 +1,7 @@
 {
   "root": "./src",
   "title": "「モダンからはじめる プログラミング生活！」",
-  "author": "Satsuki Akiba <anosatsuk124@gmail.com>",
-  "authorShort": "Satsuki Akiba",
+  "author": "Satsuki Akiba",
   "language": "ja",
   "plugins": [
     "anchors",
@@ -12,7 +11,7 @@
     "search-pro-fixed"
   ],
   "pdf.fontSize": 16,
-  "pdf.fontFamily": "ZenMaruGothic",
+  "pdf.fontFamily": "FirgeNerd",
   "pdf.paperSize": "a4",
   "pdf.embedFonts": true
 }
