@@ -2,11 +2,11 @@
 
 ## 本としてダウンロード
 
-- [PDF](/books/book.pdf)
+<a href="/books/book.pdf" download>PDF</a>
 
-- [EPUB](/books/book.epub)
+<a href="/books/book.epub" download>EPUB</a>
 
-- [MOBI](/books/book.mobi)
+<a href="/books/book.mobi" download>MOBI</a>
 
 ## このリポジトリについて
 
