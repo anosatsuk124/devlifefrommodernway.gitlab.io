@@ -10,6 +10,9 @@
     "hints",
     "search-pro-fixed"
   ],
+  "styles": {
+    "website": "./styles/website.css"
+  },
   "pdf.fontSize": 16,
   "pdf.paperSize": "a4",
   "pdf.embedFonts": true
