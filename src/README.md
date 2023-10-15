@@ -91,7 +91,7 @@
 
 ### 用語の表記について
 
-プログラミングの周辺分野用語は、Gooleablity [^2] を考慮して英語表記を優先しています。
+プログラミングの周辺分野用語は、Googleablity [^2] を考慮して英語表記を優先しています。
 初出で重要なキーワードは _Italic_ 体で表記しています。
 
 > プログラミング言語 (あるいは _framework_) の文法や機能を &hellip;
@@ -99,4 +99,4 @@
 ---
 
 [^1]: [X (Twitter)][2] は、イーロン氏以降に _Open Source_ 化が進んでいます。
-[^2]: Google での検索しやすさ。`C language` は `C-language` `C-lang` などと表記すると Gooleablity が高い。
+[^2]: Google での検索しやすさ。`C language` は `C-language` `C-lang` などと表記すると Googleablity が高い。
