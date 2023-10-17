@@ -2,14 +2,15 @@
   "name": "devlifefrommodernway",
   "private": true,
   "scripts": {
-    "watch": "run-p watch:web",
+    "watch": "run-s license && run-p watch:web",
     "watch:web": "honkit serve",
-    "build": "run-s build:content",
+    "build": "run-s license build:content",
     "build:content": "run-p build:content:*",
     "build:content:web": "honkit build",
     "build:content:pdf": "mkdir -p ./target/ && honkit pdf . ./target/book.pdf",
     "build:content:epub": "mkdir -p ./target/ && honkit epub . ./target/book.epub",
-    "build:content:mobi": "mkdir -p ./target/ && honkit mobi . ./target/book.mobi"
+    "build:content:mobi": "mkdir -p ./target/ && honkit mobi . ./target/book.mobi",
+    "license": "license-report --output=markdown --config ./licese-report.json > src/EXTERNAL_LICENSE_REPORT.md"
   },
   "devDependencies": {
     "gitbook-plugin-anchors": "^0.7.1",
@@ -19,6 +20,7 @@
     "gitbook-plugin-search-pro-fixed": "^1.0.1",
     "graceful-fs": "^4.2.11",
     "honkit": "^5.1.1",
+    "license-report": "^6.5.0",
     "npm-run-all": "^4.1.5"
   }
 }
