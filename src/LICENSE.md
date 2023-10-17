@@ -1,4 +1,4 @@
-# LICENSE Information
+# ライセンス情報
 
 ## 本文
 
