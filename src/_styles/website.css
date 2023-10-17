@@ -28,3 +28,8 @@
 .markdown-section code {
   font-size: 0.9em;
 }
+
+/* For hints Plguin */
+.hints-alert {
+  word-break: break-word;
+}
