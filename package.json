@@ -4,8 +4,8 @@
   "scripts": {
     "watch": "run-s license && run-p watch:web",
     "watch:web": "honkit serve",
-    "build": "run-s license build:content",
-    "build:content": "run-p build:content:*",
+    "build": "run-s build:content",
+    "build:content": "run-s license && run-p build:content:*",
     "build:content:web": "honkit build",
     "build:content:pdf": "mkdir -p ./target/ && honkit pdf . ./target/book.pdf",
     "build:content:epub": "mkdir -p ./target/ && honkit epub . ./target/book.epub",
