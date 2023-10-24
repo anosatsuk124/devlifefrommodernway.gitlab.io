@@ -13,6 +13,7 @@
   "styles": {
     "website": "./_styles/website.css"
   },
+  "pdf.fontFamily": "FirgeNerd",
   "pdf.fontSize": 16,
   "pdf.paperSize": "a4",
   "pdf.embedFonts": true
