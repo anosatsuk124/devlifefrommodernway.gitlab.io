@@ -11,7 +11,8 @@
     "search-pro-fixed"
   ],
   "styles": {
-    "website": "./_styles/website.css"
+    "website": "./_styles/website.css",
+    "pdf": "./_styles/pdf.css"
   },
   "pdf.fontFamily": "FirgeNerd",
   "pdf.fontSize": 16,
