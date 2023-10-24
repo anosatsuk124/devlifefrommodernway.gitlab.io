@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "FirgeNerd";
+  src: url("./fonts/woff2/FirgeNerd-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FirgeNerd";
+  src: url("./fonts/woff2/FirgeNerd-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.book.font-family-1 {
+  font-family: "FirgeNerd", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.markdown-section p {
+  font-size: 1.1em;
+}
+
+.markdown-section code,
+.markdown-section pre {
+  font-family: "FirgeNerd", monospace;
+}
+
+.markdown-section code {
+  font-size: 0.9em;
+}
+
+/* For hints Plguin */
+
+.hints-container {
+  /* To be fitted */
+  padding-right: 15px;
+}
+
+.hints-alert {
+  word-break: break-word;
+}
