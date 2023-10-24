@@ -30,6 +30,12 @@
 }
 
 /* For hints Plguin */
+
+.hints-container {
+  /* To be fitted */
+  padding-right: 15px;
+}
+
 .hints-alert {
   word-break: break-word;
 }
