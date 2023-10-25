@@ -8,12 +8,9 @@
     "collapsible-chapters",
     "hide-published-with",
     "hints",
-    "search-pro-fixed"
+    "search-pro-fixed",
+    "image-captions"
   ],
-  "styles": {
-    "website": "./_styles/website.css",
-    "pdf": "./_styles/pdf.css"
-  },
   "pdf.fontFamily": "FirgeNerd",
   "pdf.fontSize": 16,
   "pdf.paperSize": "a4",
