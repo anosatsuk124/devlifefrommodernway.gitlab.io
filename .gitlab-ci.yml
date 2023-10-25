@@ -28,9 +28,13 @@ release:
       --assets-link "{\"name\":\"book.epub\", \"url\":\"${PACKAGE_REGISTRY_URL}/book-${CI_COMMIT_TAG}.epub\"}"
       --assets-link "{\"name\":\"book.mobi\", \"url\":\"${PACKAGE_REGISTRY_URL}/book-${CI_COMMIT_TAG}.mobi\"}"
 
-image: docker:24.0.5
 pages:
   stage: build
+  image: docker:24.0.5
+  services:
+    - docker:24.0.5-dind
+  before_script:
+    - docker info
   cache:
     key:
       files:
