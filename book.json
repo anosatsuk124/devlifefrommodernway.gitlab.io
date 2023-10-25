@@ -7,9 +7,12 @@
     "anchors",
     "collapsible-chapters",
     "hide-published-with",
-    "hints",
     "search-pro-fixed",
-    "image-captions"
+    "image-captions",
+    "copy-code-button",
+    "obsidian-code-admonition",
+    "-highlight",
+    "prism"
   ],
   "pdf.fontFamily": "FirgeNerd",
   "pdf.fontSize": 16,

@@ -1,32 +1,26 @@
 # 「モダンからはじめる プログラミング生活！」
 
-{% hint style="info" %}
+> [!info] **本としてダウンロード**
+>
+> [**Releases**](https://gitlab.com/DevLifeFromModernWay/devlifefrommodernway.gitlab.io/-/releases/permalink/latest) から以下のファイル形式でのダウンロードも可能です。
+>
+> - PDF
+>
+> - EPUB
+>
+> - MOBI
+>
+> **link: <https://gitlab.com/DevLifeFromModernWay/devlifefrommodernway.gitlab.io/-/releases/permalink/latest>**
 
-**本としてダウンロード**
+---
 
-[**Releases**](https://gitlab.com/DevLifeFromModernWay/devlifefrommodernway.gitlab.io/-/releases/permalink/latest) から以下のファイル形式でのダウンロードも可能です。
-
-- PDF
-
-- EPUB
-
-- MOBI
-
-**link: <https://gitlab.com/DevLifeFromModernWay/devlifefrommodernway.gitlab.io/-/releases/permalink/latest>**
-
-{% endhint %}
-
-{% hint style="danger" %}
-
-**注意**:
-
-本リポジトリは余裕をもって、片手間にでも読み進めることを想定しています。
-
-いますぐ即戦力になるような教材では**ありません**。
-
-興味を持ったところから、気軽に読み進めてください。
-
-{% endhint %}
+> [!danger] **注意**:
+>
+> 本リポジトリは余裕をもって、片手間にでも読み進めることを想定しています。
+>
+> いますぐ即戦力になるような教材では**ありません**。
+>
+> 興味を持ったところから、気軽に読み進めてください。
 
 本リポジトリはゲーム感覚で現代的で実践的なプログラマになるための教材です。
 
