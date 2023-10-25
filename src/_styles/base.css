@@ -52,52 +52,19 @@
 }
 
 /* Table responsive */
-
 table {
-  width: 100%;
+  width: 50%;
   border-top: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-th,
-td {
+.markdown-section table td,
+.markdown-section table th {
   width: 16.6%;
   padding: 0.6em 1em;
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-}
-
-@media screen and (max-width: 640px) {
-  body {
-    overflow: hidden;
-  }
-
-  table {
-    display: flex;
-  }
-
-  thead {
-    white-space: nowrap;
-  }
-
-  tbody {
-    overflow-x: scroll;
-    white-space: nowrap;
-  }
-
-  tbody tr {
-    display: inline-block;
-  }
-
-  tbody tr:last-child {
-    margin-left: -5px;
-  }
-
-  th,
-  td {
-    display: block;
-    width: auto;
-  }
+  word-break: break-word;
 }

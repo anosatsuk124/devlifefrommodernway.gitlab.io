@@ -28,7 +28,7 @@ release:
       --assets-link "{\"name\":\"book.epub\", \"url\":\"${PACKAGE_REGISTRY_URL}/book-${CI_COMMIT_TAG}.epub\"}"
       --assets-link "{\"name\":\"book.mobi\", \"url\":\"${PACKAGE_REGISTRY_URL}/book-${CI_COMMIT_TAG}.mobi\"}"
 
-image: node:lts-bullseye
+image: docker:24.0.5
 pages:
   stage: build
   cache:
@@ -38,21 +38,8 @@ pages:
     paths:
       - node_modules/
   script:
-    - apt-get update && apt-get install -y calibre --no-install-recommends
-
-    - apt-get update && apt-get install -y fontconfig unzip sudo
-    - unzip "./fonts/*.zip" -d /usr/share/fonts/
-      && fc-cache -fv
-
-    - mkdir -p /etc/fonts/conf.d &&
-      cp -a ./fonts/fonts.conf /etc/fonts/conf.d/99-firgenerd.conf &&
-      fc-cache -fv
-
-    - sudo corepack enable
-    - sudo -u node pnpm install
-
-    - sudo -u node env LANG=ja_JP.UTF-8 pnpm run build
-
+    - docker build -t devlifefrommodernway .
+    - docker run -v ./:/build devlifefrommodernway
     - cp -a _book/. public/
   artifacts:
     paths:

@@ -8,4 +8,8 @@
 
 ## リポジトリ情報
 
-- [LICENSE](LICENSE.md)
+### ライセンス情報
+
+- [ページのライセンス情報](./LICENSE.md)
+
+- [その他の使用ライブラリ等の外部ライセンス](./EXTERNAL_LICENSE.md)

@@ -1,0 +1,4 @@
+.markdown-section table td,
+.markdown-section table th {
+  word-wrap: break-word;
+}

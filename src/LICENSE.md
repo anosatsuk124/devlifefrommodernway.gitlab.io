@@ -1,4 +1,4 @@
-# ライセンス情報
+# ページのライセンス情報
 
 ## 本文
 
@@ -14,12 +14,8 @@
 > You should have received a copy of the license along with this
 > work. If not, see <https://creativecommons.org/licenses/by/4.0/>.
 
-# フォント
+## フォント
 
-| Name  | Author       | License type          | Link                           |
-| :---- | :----------- | :-------------------- | :----------------------------- |
-| Firge | Yuko OTAWARA | SIL Open Font License | https://github.com/yuru7/Firge |
-
-## その他の使用ライブラリ等の外部ライセンス
-
-{%include "EXTERNAL_LICENSE_REPORT.md" %}
+| Name  | Author       | Link                           |
+| :---- | :----------- | :----------------------------- |
+| Firge | Yuko OTAWARA | https://github.com/yuru7/Firge |

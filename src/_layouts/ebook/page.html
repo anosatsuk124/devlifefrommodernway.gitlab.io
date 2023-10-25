@@ -1,0 +1,13 @@
+<!-- prettier-ignore -->
+{% extends template.self %}
+{% extends "../layout.html" %}
+
+<!-- prettier-ignore -->
+{% block title %}{{ page.title }}{% endblock %}
+{% block description %}{{ page.description }}{% endblock %}
+
+<!-- prettier-ignore -->
+{% block style %}
+    {{ super() }}
+<link rel="stylesheet" href="/_styles/ebook.css" />
+{% endblock %}

@@ -12,8 +12,6 @@
 >
 > **link: <https://gitlab.com/DevLifeFromModernWay/devlifefrommodernway.gitlab.io/-/releases/permalink/latest>**
 
----
-
 > [!danger] **注意**:
 >
 > 本リポジトリは余裕をもって、片手間にでも読み進めることを想定しています。

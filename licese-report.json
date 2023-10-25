@@ -2,10 +2,6 @@
   "fields": [
     "name",
     "author",
-    "licenseType",
-    "link",
-    "installedVersion",
-    "licensePeriod",
-    "comment"
+    "link"
   ]
 }
