@@ -40,11 +40,11 @@ pages:
     - apt-get update && apt-get install -y calibre --no-install-recommends
 
     - apt-get update && apt-get install -y fontconfig unzip sudo
-    - unzip "./styles/fonts/*.zip" -d /usr/share/fonts/
+    - unzip "./fonts/*.zip" -d /usr/share/fonts/
       && fc-cache -fv
 
     - mkdir -p /etc/fonts/conf.d &&
-      cp -a ./styles/fonts/fonts.conf /etc/fonts/conf.d/99-firgenerd.conf &&
+      cp -a ./fonts/fonts.conf /etc/fonts/conf.d/99-firgenerd.conf &&
       fc-cache -fv
 
     - sudo corepack enable
