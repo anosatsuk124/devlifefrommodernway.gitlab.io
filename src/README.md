@@ -4,15 +4,15 @@
 >
 > [**Releases**](https://gitlab.com/DevLifeFromModernWay/devlifefrommodernway.gitlab.io/-/releases/permalink/latest) から以下のファイル形式でのダウンロードも可能です。
 >
-> - PDF
+> -   PDF
 >
-> - EPUB
+> -   EPUB
 >
-> - MOBI
+> -   MOBI
 >
 > **link: <https://gitlab.com/DevLifeFromModernWay/devlifefrommodernway.gitlab.io/-/releases/permalink/latest>**
 
----
+<br />
 
 > [!danger] **注意**:
 >
@@ -39,6 +39,8 @@
 
 などを実践的に解決していく形式をとります。
 
+<div style="page-break-before:always;"></div>
+
 その過程での副産物として、
 
 - Google 検索の方法 [^2]
@@ -49,11 +51,11 @@
 
 - 複数のプログラミング言語を書く力
 
-  - `JavaScript / TypeScript`
+    - `JavaScript / TypeScript`
 
-  - `Rust`
+    - `Rust`
 
-  - `C#`
+    - `C#`
 
 など、プログラミングとは切り離せない周辺分野の知識さえも得られます。
 
@@ -94,9 +96,9 @@
 
 ### 用語の表記について
 
-プログラミングの周辺分野用語は、Googleablity [^2] を考慮して英語表記を優先しています。
+分かりやすさのため極力日本語で表記しますが、プログラミングの周辺分野用語は Googleability [^2] 等も考慮して英語表記を優先しています。
 初出で重要なキーワードは _Italic_ 体で表記しています。
 
-> プログラミング言語 (あるいは _framework_) の文法や機能を &hellip;
+> プログラミング言語 (あるいは _framework_) の文法や機能を …
 
-[^2]: Google での検索しやすさ。C 言語は `C` と検索せず、 `C-language` `C-lang` などとすると Googleablity が高い。
+[^2]: Google での検索しやすさ。C 言語は `C` と検索せず、 `C-language` `C-lang` などとすると Googleablity が高い。[googleability - Wiktionary, the free dictionary](https://en.wiktionary.org/wiki/googleability#English)

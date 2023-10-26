@@ -1,0 +1,10 @@
+volumes:
+  node_modules:
+  pnpm-store:
+services:
+  builder:
+    build: .
+    volumes:
+      - .:/build
+      - node_modules:/build/node_modules/
+      - pnpm-store:/build/.pnpm-store/

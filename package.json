@@ -2,6 +2,7 @@
   "name": "devlifefrommodernway",
   "private": true,
   "scripts": {
+    "docker": "docker-compose up --build; docker-compose down",
     "watch": "run-s license && run-p watch:web",
     "watch:web": "honkit serve",
     "build": "run-s build:content",

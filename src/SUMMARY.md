@@ -1,14 +1,13 @@
 # 「モダンからはじめる プログラミング生活！」
 
-- [はじめに](README.md)
+- [はじめに](./README.md)
 
-## Web (TypeScript / JavaScript) 編
+## [モダンからはじめる Web アプリ開発！ (TypeScript/JavaScript & React 編)](./contents/WebApps/README.md)
 
-- [モダンからはじめる Web アプリ開発！](WebApps/README.md)
+1. [開発環境の準備 ()](./contents/WebApps/01-prepare-dev-environment.md)
+2. はじめての Web ページ ()
 
-## リポジトリ情報
-
-### ライセンス情報
+## ライセンス情報
 
 - [ページのライセンス情報](./LICENSE.md)
 
